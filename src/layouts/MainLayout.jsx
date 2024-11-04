@@ -2,16 +2,16 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const Mainpage = () => {
+const MainLayout = () => {
     return (
         <div>
             <Navbar />
-            <div className="min-h-[calc(100vh-284px)]">
+            <div className="min-h-[calc(100vh-370px)]">
             <Outlet />
             </div>
-            <Footer />
+          <Footer />
         </div>
     );
 };
 
-export default Mainpage;
+export default MainLayout;

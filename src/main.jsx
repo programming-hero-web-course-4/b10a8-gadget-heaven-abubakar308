@@ -5,29 +5,40 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Mainpage from './pages/Mainpage';
-import Home from './components/Home';
+import Home from './pages/Home';
+import MainLayout from './layouts/MainLayout';
+import Statistics from './pages/Statistics';
+import Dashboard from './pages/Dashboard';
+import GadgetCards from './components/GadgetCards';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Mainpage />,
+    element:<MainLayout />,
     children: [
       {
         path: '/',
-        element: <Home />
+        element: <Home />,
+        loader: () => fetch('/categories.json'),
+        children: [
+          {
+            path: '/category:/category',
+            loader: () => fetch('/gadgets.json'),
+            element: <GadgetCards />,
+          },
+        ],
       },
       {
         path: "/statistics",
-        element: <h2>Stasistics</h2>
+        element: <Statistics />
       },
       {
         path: "/dashboard",
-        element: <h2>Dashboard</h2>
+        element: <Dashboard />,
       },
       {
         path: "/other",
-        element: <h2>Other</h2>
+        element: <p className='text-black '>Other</p>
       }
     ]
   },

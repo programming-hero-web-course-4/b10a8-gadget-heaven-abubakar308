@@ -1,0 +1,9 @@
+[
+    { "product_id": "1", "category": "All Products" },
+    { "product_id": "2", "category": "Laptops" },
+    { "product_id": "3", "category": "Phones" },
+    { "product_id": "4", "category": "Accessories" },
+    { "product_id": "5", "category": "Smart Watches" },
+    { "product_id": "6", "category": "MacBook" },
+    { "product_id": "7", "category": "Iphone" }
+  ]

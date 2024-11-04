@@ -1,0 +1,135 @@
+[
+    {
+      "product_id": "SP001",
+      "product_title": "Galaxy X10",
+      "product_image": "https://example.com/images/galaxy_x10.jpg",
+      "category": "Smartphones",
+      "price": 599,
+      "description": "A cutting-edge smartphone with an impressive display and camera.",
+      "specification": ["6.5-inch OLED display", "128GB storage", "5G support", "Triple camera"],
+      "availability": true,
+      "rating": 4.5,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "SP002",
+      "product_title": "iPhone Z Pro",
+      "product_image": "https://example.com/images/iphone_z_pro.jpg",
+      "category": "Smartphones",
+      "price": 1099,
+      "description": "The latest iPhone model with advanced features and sleek design.",
+      "specification": ["6.7-inch Super Retina XDR display", "256GB storage", "A15 Bionic chip"],
+      "availability": true,
+      "rating": 4.8,
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "SP003",
+      "product_title": "Pixel Ultra",
+      "product_image": "https://example.com/images/pixel_ultra.jpg",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "A smartphone with superior AI-powered camera features.",
+      "specification": ["6.3-inch AMOLED display", "128GB storage", "Titan M security"],
+      "availability": true,
+      "rating": 4.7,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "SP004",
+      "product_title": "OnePlus 9T",
+      "product_image": "https://example.com/images/oneplus_9t.jpg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "Fast performance with a high-refresh-rate display.",
+      "specification": ["6.55-inch Fluid AMOLED", "256GB storage", "65W fast charging"],
+      "availability": true,
+      "rating": 4.3,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "SP005",
+      "product_title": "Moto G Power",
+      "product_image": "https://example.com/images/moto_g_power.jpg",
+      "category": "Smartphones",
+      "price": 249,
+      "description": "A budget-friendly phone with long battery life.",
+      "specification": ["6.4-inch IPS display", "64GB storage", "5000mAh battery"],
+      "availability": true,
+      "rating": 4.0,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "SP006",
+      "product_title": "Xperia Z",
+      "product_image": "https://example.com/images/xperia_z.jpg",
+      "category": "Smartphones",
+      "price": 749,
+      "description": "A smartphone with excellent sound and multimedia capabilities.",
+      "specification": ["6.1-inch OLED display", "128GB storage", "High-res audio support"],
+      "availability": true,
+      "rating": 4.4,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "LP001",
+      "product_title": "MacBook Pro 14",
+      "product_image": "https://example.com/images/macbook_pro_14.jpg",
+      "category": "Laptops",
+      "price": 1999,
+      "description": "Powerful performance with the M1 Pro chip.",
+      "specification": ["14-inch Liquid Retina XDR display", "16GB RAM", "512GB SSD"],
+      "availability": true,
+      "rating": 4.9,
+      "warranty": "3 years"
+    },
+    {
+      "product_id": "LP002",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://example.com/images/dell_xps_13.jpg",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "A compact, high-performance laptop with an InfinityEdge display.",
+      "specification": ["13.4-inch FHD+ display", "16GB RAM", "512GB SSD"],
+      "availability": false,
+      "rating": 4.6,
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "AC001",
+      "product_title": "AirPods Pro",
+      "product_image": "https://example.com/images/airpods_pro.jpg",
+      "category": "Accessories",
+      "price": 249,
+      "description": "Noise-canceling wireless earbuds with spatial audio.",
+      "specification": ["Active noise cancellation", "Spatial audio", "Up to 4.5 hours of listening time"],
+      "availability": true,
+      "rating": 4.7,
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "AC002",
+      "product_title": "Logitech MX Master 3",
+      "product_image": "https://example.com/images/logitech_mx_master_3.jpg",
+      "category": "Accessories",
+      "price": 99,
+      "description": "Advanced wireless mouse with precision scrolling.",
+      "specification": ["Ergonomic design", "Customizable buttons", "4000 DPI sensor"],
+      "availability": true,
+      "rating": 4.8,
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "AC003",
+      "product_title": "Samsung Galaxy Buds Live",
+      "product_image": "https://example.com/images/galaxy_buds_live.jpg",
+      "category": "Accessories",
+      "price": 169,
+      "description": "Wireless earbuds with active noise cancellation.",
+      "specification": ["Active noise cancellation", "12mm speakers", "6 hours of battery life"],
+      "availability": true,
+      "rating": 4.5,
+      "warranty": "1 year"
+    }
+  ]
+  
