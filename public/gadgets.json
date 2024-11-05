@@ -2,7 +2,7 @@
     {
       "product_id": "SP001",
       "product_title": "Galaxy X10",
-      "product_image": "https://example.com/images/galaxy_x10.jpg",
+      "product_image": "https://i.ibb.co.com/bHVxDbK/sddefault.jpg",
       "category": "Smartphones",
       "price": 599,
       "description": "A cutting-edge smartphone with an impressive display and camera.",
@@ -13,8 +13,8 @@
     },
     {
       "product_id": "SP002",
-      "product_title": "iPhone Z Pro",
-      "product_image": "https://example.com/images/iphone_z_pro.jpg",
+      "product_title": "iPhone 16 pro max",
+      "product_image": "https://i.ibb.co.com/vPnYnzS/i-Phone-16-Pro-Max-16-Pro-Black-Titanium-2734.jpg",
       "category": "Smartphones",
       "price": 1099,
       "description": "The latest iPhone model with advanced features and sleek design.",
@@ -26,7 +26,7 @@
     {
       "product_id": "SP003",
       "product_title": "Pixel Ultra",
-      "product_image": "https://example.com/images/pixel_ultra.jpg",
+      "product_image": "https://i.ibb.co.com/kgbX0gJ/gsmarena-000.jpg",
       "category": "Smartphones",
       "price": 899,
       "description": "A smartphone with superior AI-powered camera features.",
@@ -38,7 +38,7 @@
     {
       "product_id": "SP004",
       "product_title": "OnePlus 9T",
-      "product_image": "https://example.com/images/oneplus_9t.jpg",
+      "product_image": "https://i.ibb.co.com/VHCt9Qz/One-Plus-8-T-Aquamarine-Green-500x500.jpg",
       "category": "Smartphones",
       "price": 699,
       "description": "Fast performance with a high-refresh-rate display.",
@@ -50,7 +50,7 @@
     {
       "product_id": "SP005",
       "product_title": "Moto G Power",
-      "product_image": "https://example.com/images/moto_g_power.jpg",
+      "product_image": "https://i.ibb.co.com/xDzhWqq/AIRPODS-PRO2-s.jpg",
       "category": "Smartphones",
       "price": 249,
       "description": "A budget-friendly phone with long battery life.",
@@ -62,7 +62,7 @@
     {
       "product_id": "SP006",
       "product_title": "Xperia Z",
-      "product_image": "https://example.com/images/xperia_z.jpg",
+      "product_image": "https://i.ibb.co.com/QN6FxTC/images-q-tbn-ANd9-Gc-S9v3e9-DXV9-T1v-DP1-Yq-O0t7h32ds7pu-A9s-A-s.jpg",
       "category": "Smartphones",
       "price": 749,
       "description": "A smartphone with excellent sound and multimedia capabilities.",
@@ -74,7 +74,7 @@
     {
       "product_id": "LP001",
       "product_title": "MacBook Pro 14",
-      "product_image": "https://example.com/images/macbook_pro_14.jpg",
+      "product_image": "https://i.ibb.co.com/mhq0BLk/images-q-tbn-ANd9-Gc-REd4-Kh-Qe-HAv-ACWv-Hu-VIQVAsu-K3-ZXe6lt-Cd-OA-s.jpg",
       "category": "Laptops",
       "price": 1999,
       "description": "Powerful performance with the M1 Pro chip.",
@@ -86,7 +86,7 @@
     {
       "product_id": "LP002",
       "product_title": "Dell XPS 13",
-      "product_image": "https://example.com/images/dell_xps_13.jpg",
+      "product_image": "https://i.ibb.co.com/txmvcB1/Dell-XPS-13-Plus-BD-Price-1.jpg",
       "category": "Laptops",
       "price": 1299,
       "description": "A compact, high-performance laptop with an InfinityEdge display.",
@@ -98,7 +98,7 @@
     {
       "product_id": "AC001",
       "product_title": "AirPods Pro",
-      "product_image": "https://example.com/images/airpods_pro.jpg",
+      "product_image": "https://i.ibb.co.com/xDzhWqq/AIRPODS-PRO2-s.jpg",
       "category": "Accessories",
       "price": 249,
       "description": "Noise-canceling wireless earbuds with spatial audio.",
@@ -110,7 +110,7 @@
     {
       "product_id": "AC002",
       "product_title": "Logitech MX Master 3",
-      "product_image": "https://example.com/images/logitech_mx_master_3.jpg",
+      "product_image": "https://i.ibb.co.com/khqr5Px/images-q-tbn-ANd9-Gc-T1-Bxas-PUPh-Kd-Za-Dcwk-ZGQ8-ERRNEQQu83o-UBQ-s.jpg",
       "category": "Accessories",
       "price": 99,
       "description": "Advanced wireless mouse with precision scrolling.",
@@ -122,7 +122,7 @@
     {
       "product_id": "AC003",
       "product_title": "Samsung Galaxy Buds Live",
-      "product_image": "https://example.com/images/galaxy_buds_live.jpg",
+      "product_image": "https://i.ibb.co.com/9y0mxGV/images-q-tbn-ANd9-Gc-T9-Y-i-Mm-WGq8-f9-Jbut64ebl-4m-JQ4b-TS-Z5-Q-s.jpg",
       "category": "Accessories",
       "price": 169,
       "description": "Wireless earbuds with active noise cancellation.",

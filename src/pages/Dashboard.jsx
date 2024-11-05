@@ -1,11 +1,13 @@
-import { useLoaderData } from "react-router-dom";
+import { Outlet, useLoaderData } from "react-router-dom";
+import DashboardHeader from "../components/DashboardHeader";
 
 const Dashboard = () => {
     const data = useLoaderData()
     console.log(data)
     return (
         <div>
-            <p>This is dashboard</p>
+            <DashboardHeader />
+            <Outlet />
         </div>
     );
 };

@@ -10,10 +10,14 @@ const Home = () => {
         <div>
             <Header />
             <Banner />
-           {
+          <div className="md:flex justify-between">
+          <div>
+          {
             categories.map(category => <Categories key={category.product_id} category={category} />)
            }
+          </div>
            <GadgetCards />
+          </div>
         </div>
     );
 };

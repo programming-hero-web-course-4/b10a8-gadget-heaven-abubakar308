@@ -1,15 +1,19 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 import Card from "./Card";
 
 const GadgetCards = () => {
-    const data = useLoaderData()
-    const { category } =useParams()
-    console.log(data)
+    const [gadgets, setGadgets] = useState([]);
+    useEffect((()=>{
+        fetch('../../public/gadgets.json')
+        .then(res=>res.json())
+        .then(data=>setGadgets(data))
+    }),[])
+
     return (
-        <div>
-            {/* {
-                data.map(gadget => <Card gadget={gadget} key={gadget.product_id} />)
-            } */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {
+                gadgets.map(gadget => <Card gadget={gadget} key={gadget.product_id} />)
+            }
         </div>
     );
 };
