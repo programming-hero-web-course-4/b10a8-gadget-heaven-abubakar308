@@ -13,6 +13,7 @@ import GadgetCards from './components/GadgetCards';
 import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
 import ProductDetails from './pages/ProductDetails';
+import Brand from './pages/Brand';
 
 const router = createBrowserRouter([
   {
@@ -63,8 +64,9 @@ const router = createBrowserRouter([
       },
       
       {
-        path: "/other",
-        element: <p className='text-black '>Other</p>
+        path: "/brand",
+        element: <Brand />,
+        loader: () => fetch('../brands.json')
       }
     ]
   },

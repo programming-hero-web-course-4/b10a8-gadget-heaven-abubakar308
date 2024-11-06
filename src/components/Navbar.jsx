@@ -26,7 +26,7 @@ const Navbar = () => {
        <Link to='/' role="tab">Home</Link>
   <Link to='/statistics' role="tab">Statistics</Link>
   <Link to='/dashboard' role="tab">Dashboard</Link>
-  <Link to='/other' role="tab">Other</Link>
+  <Link to='/brand' role="tab">Brand</Link>
       </ul>
     </div>
     <Link to='/' className="btn btn-ghost text-xl">GadgetHeaven✨</Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
   <Link to='/' role="tab">Home</Link>
   <Link to='/statistics' role="tab">Statistics</Link>
   <Link to='/dashboard' role="tab">Dashboard</Link>
-  <Link to='/other' role="tab">Other</Link>
+  <Link to='/brand' role="tab">Brand</Link>
 </div>
     </ul>
   </div>

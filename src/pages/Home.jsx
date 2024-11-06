@@ -9,7 +9,8 @@ const Home = () => {
         <div>
             <Heading title='Upgrade Your Tech Accessorize with Gadget Heaven Accessories' />
             <Banner />
-          <div className="md:flex justify-between gap-4 w-11/12 mx-auto">
+            <h2 className="text-3xl text-center py-4 font-semibold">Explore Cutting-Edge Gadgets</h2>
+          <div className="md:flex justify-between my-5 gap-4 w-11/12 mx-auto">
           <div>
             <div className="flex flex-col col gap-2 w-full bg-gray-300 rounded-2xl p-4">
           {

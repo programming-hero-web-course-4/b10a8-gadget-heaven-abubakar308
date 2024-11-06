@@ -1,0 +1,102 @@
+[
+    {
+        "brand_id": "B001",
+        "brand_name": "Apple",
+        "logo_url": "https://example.com/logos/apple-logo.png"
+    },
+    {
+        "brand_id": "B002",
+        "brand_name": "Samsung",
+        "logo_url": "https://example.com/logos/samsung-logo.png"
+    },
+    {
+        "brand_id": "B003",
+        "brand_name": "Sony",
+        "logo_url": "https://example.com/logos/sony-logo.png"
+    },
+    {
+        "brand_id": "B004",
+        "brand_name": "Dell",
+        "logo_url": "https://example.com/logos/dell-logo.png"
+    },
+    {
+        "brand_id": "B005",
+        "brand_name": "HP",
+        "logo_url": "https://example.com/logos/hp-logo.png"
+    },
+    {
+        "brand_id": "B006",
+        "brand_name": "Lenovo",
+        "logo_url": "https://example.com/logos/lenovo-logo.png"
+    },
+    {
+        "brand_id": "B007",
+        "brand_name": "Microsoft",
+        "logo_url": "https://example.com/logos/microsoft-logo.png"
+    },
+    {
+        "brand_id": "B008",
+        "brand_name": "Asus",
+        "logo_url": "https://example.com/logos/asus-logo.png"
+    },
+    {
+        "brand_id": "B009",
+        "brand_name": "Acer",
+        "logo_url": "https://example.com/logos/acer-logo.png"
+    },
+    {
+        "brand_id": "B010",
+        "brand_name": "Huawei",
+        "logo_url": "https://example.com/logos/huawei-logo.png"
+    },
+    {
+        "brand_id": "B011",
+        "brand_name": "Xiaomi",
+        "logo_url": "https://example.com/logos/xiaomi-logo.png"
+    },
+    {
+        "brand_id": "B012",
+        "brand_name": "OnePlus",
+        "logo_url": "https://example.com/logos/oneplus-logo.png"
+    },
+    {
+        "brand_id": "B013",
+        "brand_name": "Google",
+        "logo_url": "https://example.com/logos/google-logo.png"
+    },
+    {
+        "brand_id": "B014",
+        "brand_name": "LG",
+        "logo_url": "https://example.com/logos/lg-logo.png"
+    },
+    {
+        "brand_id": "B015",
+        "brand_name": "Panasonic",
+        "logo_url": "https://example.com/logos/panasonic-logo.png"
+    },
+    {
+        "brand_id": "B016",
+        "brand_name": "Nokia",
+        "logo_url": "https://example.com/logos/nokia-logo.png"
+    },
+    {
+        "brand_id": "B017",
+        "brand_name": "Canon",
+        "logo_url": "https://example.com/logos/canon-logo.png"
+    },
+    {
+        "brand_id": "B018",
+        "brand_name": "Fitbit",
+        "logo_url": "https://example.com/logos/fitbit-logo.png"
+    },
+    {
+        "brand_id": "B019",
+        "brand_name": "Bose",
+        "logo_url": "https://example.com/logos/bose-logo.png"
+    },
+    {
+        "brand_id": "B020",
+        "brand_name": "GoPro",
+        "logo_url": "https://example.com/logos/gopro-logo.png"
+    }
+]

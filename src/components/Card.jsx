@@ -17,7 +17,7 @@ const Card = ({gadget}) => {
           </h2>
           <p>Price: {price}</p>
           <div className="card-actions justify-start">
-         <Link to={`/details/${product_id}`}> <button className="badge badge-outline">View Details</button></Link>
+         <Link to={`/details/${product_id}`}> <button className="badge badge-outline border-[rgb(149,56,226)] p-3 text-[rgb(149,56,226)]">View Details</button></Link>
           </div>
         </div>
       </div>

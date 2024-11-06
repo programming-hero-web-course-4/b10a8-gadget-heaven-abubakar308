@@ -12,6 +12,7 @@ const getAllCards = () => {
     
 }
 
+
 const addCard = card =>{
     const addedCards = getAllCards();
     const isExist = addedCards.find(item=>item.product_id===card.product_id);
@@ -22,4 +23,5 @@ const addCard = card =>{
 }
 
 
-export { addCard , getAllCards}
+
+export { addCard, getAllCards}

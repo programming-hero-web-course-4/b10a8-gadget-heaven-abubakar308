@@ -2,23 +2,22 @@ import { useEffect, useState } from "react";
 import { getAllCards } from "../utility/cart";
 
 const Cart = () => {
-    
-    const [gadget,setGadget] = useState([])
+    const [gadget,setGadget] = useState([]);
     useEffect(() =>{
         const addedCard = getAllCards();
         setGadget(addedCard)
     },[]);
     const handleSorting = () =>{
-       const sortData =  [...gadget].sort((a,b)=>a.pricce - b.price);
+       const sortData =  [...gadget].sort((a,b)=>b.price - a.price);
        console.log(sortData)
-        setGadget(gadget)
+        setGadget(sortData)
     }
     return (
 <div className="w-11/12 mx-auto my-5">
 <div className="flex justify-between ">
                 <h3>Cart</h3>
                 <div className="flex gap-4">
-                    <h3>Total Cost {}</h3>
+                    <h3>Total Cost {gadget.price}</h3>
                     <button onClick={handleSorting}>Sot by Price</button>
                     <button>Puchase</button>
                 </div>
