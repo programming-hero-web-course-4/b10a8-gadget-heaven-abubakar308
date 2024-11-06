@@ -1,10 +1,15 @@
+/* eslint-disable react-refresh/only-export-components */
 import { useLoaderData } from "react-router-dom";
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
-import ReusabloeHeading from "./ReusabloeHeading";
-
+import ReusabloeHeading from "../components/ReusabloeHeading";
+import { addCard } from "../utility/cart";
 const ProductDetails = () => {
     const product = useLoaderData()
-    const {product_title, product_image, price, product_id, description, specification,rating} = product;
+    const {product_title, product_image, price, description, specification,rating} = product;
+    const handleCart = (product) =>{
+      addCard(product)
+    };
+
     return (
 <div>
     <div className="pb-40 bg-[rgb(149,56,226)]"><ReusabloeHeading title='Product Details' /></div>
@@ -28,7 +33,7 @@ const ProductDetails = () => {
       <h2>Rating</h2>
       <p>{rating}</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Add To Cart <CiShoppingCart /></button>
+      <button onClick={() => handleCart(product)}  className="btn btn-primary">Add To Cart <CiShoppingCart /></button>
       <button className="text-3xl bg-slate-50 rounded-full p-2 border" to='heart'><CiHeart /></button>
     </div>
   </div>
