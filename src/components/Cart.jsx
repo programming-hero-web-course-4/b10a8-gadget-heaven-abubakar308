@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAllCards } from "../utility/cart";
+import { GoSortAsc, } from "react-icons/go";
+import { RxCrossCircled } from "react-icons/rx";
 
 const Cart = () => {
     const [gadget,setGadget] = useState([]);
@@ -12,14 +14,17 @@ const Cart = () => {
        console.log(sortData)
         setGadget(sortData)
     }
+
+    const totalCost = gadget.reduce((acc, item) => acc + item.price, 0);
     return (
 <div className="w-11/12 mx-auto my-5">
 <div className="flex justify-between ">
-                <h3>Cart</h3>
-                <div className="flex gap-4">
-                    <h3>Total Cost {gadget.price}</h3>
-                    <button onClick={handleSorting}>Sot by Price</button>
-                    <button>Puchase</button>
+                <h3 className="text-xl font-semibold">Cart</h3>
+                <div className="flex items-center gap-4">
+                    <h3 className="font-semibold text-xl">Total Cost: ${totalCost}</h3>
+                    <button className="flex items-center gap-2 text-purple-500 p-2 border rounded-3xl border-purple-500" onClick={handleSorting}>Sot by Price <GoSortAsc />
+                    </button>
+                    <button className="text-white bg-purple-600 p-2 rounded-3xl">Puchase</button>
                 </div>
             </div>
             <div className="my-5 space-y-4">
@@ -33,7 +38,7 @@ const Cart = () => {
                   <p><span className='text-xl font-semibold'>Price :${gadget.price}</span> </p>
                   </div>
                </div>
-               <button><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button> 
+               <button className="text-red-500 text-2xl"><RxCrossCircled /></button> 
                </div>)
             }
             </div>

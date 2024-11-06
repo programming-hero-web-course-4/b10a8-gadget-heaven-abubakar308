@@ -12,7 +12,6 @@ const getAllCards = () => {
     
 }
 
-
 const addCard = card =>{
     const addedCards = getAllCards();
     const isExist = addedCards.find(item=>item.product_id===card.product_id);
@@ -21,7 +20,5 @@ const addCard = card =>{
     localStorage.setItem('addedCards', JSON.stringify(addedCards));
     toast.success('Successfully Added');
 }
-
-
 
 export { addCard, getAllCards}
