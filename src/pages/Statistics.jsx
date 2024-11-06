@@ -1,8 +1,9 @@
+import ReusabloeHeading from "../components/ReusabloeHeading";
 
 const Statistics = () => {
     return (
         <div>
-            <h2 className="text-4xl">This is Statistics</h2>
+         <ReusabloeHeading title='Statistics' />
         </div>
     );
 };
