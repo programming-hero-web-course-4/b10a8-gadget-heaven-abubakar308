@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAllWishLists } from "../utility/wishlist";
 import { RxCrossCircled } from "react-icons/rx";
+import { CiShoppingCart } from "react-icons/ci";
 
 
 const Wishlist = () => {
@@ -22,6 +23,7 @@ const Wishlist = () => {
                   <h3 className='text-xl font-semibold'>{gadget.product_title}</h3>
                   <p>{gadget.description}</p>
                   <p><span className='text-xl font-semibold'>Price :${gadget.price}</span> </p>
+                  <button  className="btn rounded-3xl text-white bg-[rgb(149,56,226)]">Add To Cart <CiShoppingCart /></button>
                   </div>
                </div>
                <button className="text-red-500 text-2xl"><RxCrossCircled /> </button> 

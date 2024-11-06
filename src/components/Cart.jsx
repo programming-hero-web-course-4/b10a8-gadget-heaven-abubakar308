@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { getAllCards } from "../utility/cart";
 import { GoSortAsc, } from "react-icons/go";
 import { RxCrossCircled } from "react-icons/rx";
+import group from '../assets/Group.png'
+import { Link } from "react-router-dom";
 
 const Cart = () => {
     const [gadget,setGadget] = useState([]);
@@ -24,7 +26,19 @@ const Cart = () => {
                     <h3 className="font-semibold text-xl">Total Cost: ${totalCost}</h3>
                     <button className="flex items-center gap-2 text-purple-500 p-2 border rounded-3xl border-purple-500" onClick={handleSorting}>Sot by Price <GoSortAsc />
                     </button>
-                    <button className="text-white bg-purple-600 p-2 rounded-3xl">Puchase</button>
+                    <a href="#my_modal_8" className="btn text-white bg-purple-600 p-2 rounded-3xl">Puchase</a>
+                
+<div className="modal text-center" role="dialog" id="my_modal_8">
+  <div className="modal-box">
+<div className="flex justify-center">    <img src={group} alt="" /></div>
+    <h3 className="text-lg font-bold">Payment Successfull</h3>
+    <p className="py-4">Thanks for purchasing. <br />
+    Total: {totalCost}</p>
+    <div className="modal-action">
+      <Link to='/' className="btn w-full">close</Link>
+    </div>
+  </div>
+</div>
                 </div>
             </div>
             <div className="my-5 space-y-4">

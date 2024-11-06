@@ -28,7 +28,7 @@ const ProductDetails = () => {
     <p className="text-xl font-semibold">Price: {price}</p>
     <span className="w-20 p-2 rounded-3xl bg-green-100 text-green-400">in stosk</span>
     <p className="text-[rgba(9,8,15,0.6)]">{description}</p>
-    <h3 className="text-xl font-semibold">Specification:</h3>
+    <h3 className="text-xl font-semibold">Specifications:</h3>
       <ol className="list-decimal">
         {specification.map((spec, index) => (
           <li className="text-[rgba(9,8,15,0.6)]" key={index}>{spec}</li>
