@@ -1,8 +1,12 @@
 import { useLoaderData } from "react-router-dom";
 import ReusabloeHeading from "../components/ReusabloeHeading";
+import { useEffect } from "react";
 
 const Brand = () => {
-    const brandsdata = useLoaderData()
+    const brandsdata = useLoaderData() 
+    useEffect(()=>{
+        document.title = 'Brands';
+    },[]) 
     return (
         <div>
             <ReusabloeHeading title='Our Brands' />

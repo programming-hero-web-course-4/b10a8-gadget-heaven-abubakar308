@@ -15,6 +15,21 @@
 * Sorting and filtering options
 * A cart system for seamless 
 
+## List of React Fundamental Concepts Used in the Project
+## Functional Components:
+
+* All components in the project are built as functional components to promote reusability and simplicity.
+* React Hooks:
+* useState:
+* useEffect
+* React Router:
+* Event Handling
+* Components
+* Using the .map()
+
+## LocalStorage:
+
+* Purpose: Used to persist the cart data even after the page is refreshed or when the user navigates away from the site.
 
 ## Key Features
 * Dynamic Sorting & Filtering: Sort products by price and filter them by category.

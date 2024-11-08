@@ -2,9 +2,13 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import Categories from "../components/Categories";
 import Heading from "../components/Heading";
+import { useEffect } from "react";
 
 const Home = () => {
     const categories = useLoaderData()
+    useEffect(()=>{
+      document.title = 'GadgetHeaven';
+  },[])
     return (
         <div>
             <Heading title='Upgrade Your Tech Accessorize with Gadget Heaven Accessories' />

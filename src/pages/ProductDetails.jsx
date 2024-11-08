@@ -4,9 +4,15 @@ import { CiShoppingCart, CiHeart } from "react-icons/ci";
 import ReusabloeHeading from "../components/ReusabloeHeading";
 import { addCard, } from "../utility/cart";
 import { addWishList } from "../utility/wishlist";
+import { useEffect } from "react";
 const ProductDetails = () => {
     const product = useLoaderData()
     const {product_title, product_image, price, description, specification,rating} = product;
+    
+    
+    useEffect(()=>{
+      document.title = `${product_title}`;
+  },[product_title])
     const handleCart = (product) =>{
       addCard(product)
     };

@@ -1,9 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
 
 const Navbar = () => {
+  const location = useLocation();
+
+  const navbarStyle = {
+    backgroundColor: location.pathname === "/" ? "rgb(149,56,226)" : ""
+  };
     return (
-<div className="navbar bg-base-100">
+<div style={navbarStyle} className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,10 +28,9 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-       <Link to='/' role="tab">Home</Link>
-  <Link to='/statistics' role="tab">Statistics</Link>
-  <Link to='/dashboard' role="tab">Dashboard</Link>
-  <Link to='/brand' role="tab">Brand</Link>
+       <NavLink to='/' className={({ isActive }) => (isActive ? "text-purple-500 bg-orange-300" : "")}>Home</NavLink>
+   <NavLink to='/dashboard' className={({ isActive }) => (isActive ? "text-purple-500 bg-orange-300" : "")}>Dashboard</NavLink>
+  <NavLink to='/brand' className={({ isActive }) => (isActive ? "text-purple-500 bg-orange-300" : "")}>Brand</NavLink>
       </ul>
     </div>
     <Link to='/' className="btn btn-ghost text-xl">GadgetHeaven✨</Link>
@@ -34,10 +38,10 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
     <div role="tablist" className="tabs flex gap-3">
-  <Link to='/' role="tab">Home</Link>
-  <Link to='/statistics' role="tab">Statistics</Link>
-  <Link to='/dashboard' role="tab">Dashboard</Link>
-  <Link to='/brand' role="tab">Brand</Link>
+    <NavLink to='/' className={({ isActive }) => (isActive ? "text-purple-800 font-semibold bg-orange-300" : "")}>Home</NavLink>
+  <NavLink to='/statistics' className={({ isActive }) => (isActive ? "text-purple- bg-orange-300 font-semibold" : "")}>Statistics</NavLink>
+  <NavLink to='/dashboard' className={({ isActive }) => (isActive ? "text-purple-800 bg-orange-300 font-semibold" : "")}>Dashboard</NavLink>
+  <NavLink to='/brand' className={({ isActive }) => (isActive ? "text-purple-800 bg-orange-300 font-semibold" : "")}>Brand</NavLink>
 </div>
     </ul>
   </div>

@@ -7,6 +7,7 @@ import { CiShoppingCart } from "react-icons/ci";
 const Wishlist = () => {
     const [gadget,setGadget] = useState([]);
     useEffect(() =>{
+        document.title = 'Wishlist-GadgetHeaven'
         const addedWishlist = getAllWishLists();
         setGadget(addedWishlist)
     },[]);
